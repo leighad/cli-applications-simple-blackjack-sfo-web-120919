@@ -53,8 +53,8 @@ end
 
 def invalid_command
   # code invalid_command here
-  p "Please enter a valid command"
-  prompt_user
+  puts "Please enter a valid command"
+  # prompt_user
 end
 
 #####################################################
