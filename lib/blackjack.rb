@@ -66,15 +66,15 @@ def runner
   # code runner here
   welcome
   card_total = initial_round
-  hit?
-  if gets = 's'
-    hit?
-  end
-  if gets = 'h'
-    deal_card
-  end
-  display_card_total
-  if display_card_total > 21
+  # hit?
+  # if gets = 's'
+  #   hit?
+  # end
+  # if gets = 'h'
+  #   deal_card
+  # end
+  # display_card_total
+  until card_total > 21
     end_game
   end
 end
