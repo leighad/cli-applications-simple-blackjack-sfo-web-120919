@@ -65,7 +65,7 @@ end
 def runner
   # code runner here
   welcome
-  initial_round = 
+  initial_round = card_total
   hit?
   if gets = 's'
     hit?
